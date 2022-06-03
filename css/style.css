@@ -1,0 +1,189 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.full-screen {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    
+    color: white;
+}
+.full-screen_body {
+    padding: 50px 15px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+}
+.full-screen_title {
+    font-size: 75px;
+    letter-spacing: 25px;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+
+}
+.full-screen_text {
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+.full-screen_video {
+    position: fixed;
+    top: 0;
+    left: 0;
+   width: 100%;
+    object-fit: cover;
+
+}
+.content {
+    background-color:rgb(189, 99, 99);
+   color: white;
+    z-index: 5;
+    position: relative;
+   
+}
+.content_container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 50px 15px ;
+    }
+.content_container p{
+    margin: 0px 0px  20px 0px;
+} 
+html,body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+   border-collapse: collapse;
+}
+
+.text{
+    text-align: center;
+    font-size: 24px;
+}
+header{
+    background-color:rgb(156, 87, 87);
+    text-align: left;
+    display: flex;
+    z-index: 5;
+    align-items: left;
+    justify-content: left;
+    height: 50px;
+    
+    
+
+    }
+    header a{
+        border:1px solid rgb(156, 87, 87);
+         text-decoration: none;
+          background-color: rgb(156, 87, 87);
+          color:white;
+          padding: 20px;
+        font-size: 18px;
+         position: relative;
+         border-left: none;
+         border-right: none;
+         margin: 0;
+          top: 20px;
+          }
+          h1 {
+            text-align: center;
+            font-size: 25px;
+            font-style: regular;
+            
+        }
+        img{
+            align-items: center;
+            
+            margin: 30px;
+            padding: 0px;
+            border:5px solid #c02b2b;
+            border-radius: 38px;
+            width: 450px;
+            height: 450px;
+        }
+        
+        .naverx {
+            text-decoration: none;
+            position: relative;
+            color:red;
+            font-size: 22px;
+
+        }
+        .pag{
+            text-align: center;
+        }
+        header a:hover{
+            border:1px solid rgb(116, 48, 48);
+            text-decoration: none;
+             background-color: rgb(116, 48, 48);
+             color:white;
+             padding: 20px;
+           border-left: none;
+           border-right: none;
+            position: relative;
+           
+             top: 20px;
+          transition: 600ms;
+        
+              }
+              header a:focus{
+                border:1px solid rgb(116, 48, 48);
+            text-decoration: none;
+             background-color: rgb(116, 48, 48);
+             font-size: 20px;
+             font-weight: 500;
+             padding: 20px;
+           border-left: none;
+           border-right: none;
+            position: relative;
+           
+             top: 20px;
+          transition: 600ms;
+          
+            }
+            .logo{
+                border: 0px;
+                border-radius: 0px;
+                text-align: left;
+                width: 50px;
+                height: 50px;
+                margin-left: 3px;
+                margin-top: 3px;
+              }
+              .naverx{
+                  position: fixed;
+              display: flex;
+                width: 75px;
+                z-index: 6;
+                top: 900px;
+                right: 100px;
+                
+            background-color: white;
+            border:5px solid #c02b2b;
+            border-radius: 17px;
+          padding:5px 9px 5px 9px;
+          align-items: center;
+          justify-content: center;
+                  }
+                  .naverx:hover {
+                      background-color: rgb(202, 202, 202);
+                      transition: 500ms;
+                  }
+                 p{
+                     font-size: 20px;
+                 }
